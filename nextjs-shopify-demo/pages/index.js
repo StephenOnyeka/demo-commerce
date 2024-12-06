@@ -244,7 +244,7 @@ export default function Home({ products }) {
                 style={{ paddingTop: "56.25%" }}
               >
                 <video
-                  className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  className="absolute top-0 left-0 w-full h-full rounded-lg lg:rounded-3xl"
                   // controls
                   autoPlay
                   loop
@@ -255,37 +255,6 @@ export default function Home({ products }) {
                   Your browser does not support the video tag.
                 </video>
               </div>
-            {/* </div> */}
-            {/* <div className="aspect-video w-full">
-              <video
-                className="w-full h-full"
-                // controls
-                autoPlay
-                loop
-                muted
-                src="/video/PinGrab_1733449187884.mp4"
-                type="video/mp4"
-              >
-                Your browser does not support the video tag.
-              </video>
-            </div> */}
-            {/* <div className="relative w-full h-screen/4 sm:h-screen/3 md:h-screen/2  overflow-hidden rounded-lg">
-              <div className="aspect-video w-full h-full">
-                <video
-                  className="absolute top-0 left-0 object-cover w-full h-full"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source
-                    src="/video/PinGrab_1733449187884.mp4"
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div> */}
-
             <br />
             <p className="mt-6 text-xl text-green-900 font-bold">
               What are people saying?
