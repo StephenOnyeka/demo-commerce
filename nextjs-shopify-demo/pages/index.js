@@ -238,7 +238,38 @@ export default function Home({ products }) {
             <br />
             <br />
             {/* The running background video */}
-            <div className="relative w-full h-screen/4 sm:h-screen/3 md:h-screen/2  overflow-hidden rounded-lg">
+            {/* <div className=""> */}
+            <div
+                className="relative w-full h-0 rounded-lg"
+                style={{ paddingTop: "56.25%" }}
+              >
+                <video
+                  className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  // controls
+                  autoPlay
+                  loop
+                  muted                  
+                  src="/video/PinGrab_1733449187884.mp4"
+                  type="video/mp4"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            {/* </div> */}
+            {/* <div className="aspect-video w-full">
+              <video
+                className="w-full h-full"
+                // controls
+                autoPlay
+                loop
+                muted
+                src="/video/PinGrab_1733449187884.mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div> */}
+            {/* <div className="relative w-full h-screen/4 sm:h-screen/3 md:h-screen/2  overflow-hidden rounded-lg">
               <div className="aspect-video w-full h-full">
                 <video
                   className="absolute top-0 left-0 object-cover w-full h-full"
@@ -253,7 +284,7 @@ export default function Home({ products }) {
                   Your browser does not support the video tag.
                 </video>
               </div>
-            </div>
+            </div> */}
 
             <br />
             <p className="mt-6 text-xl text-green-900 font-bold">
@@ -297,31 +328,20 @@ export default function Home({ products }) {
           </div>
         </div>
       </div>
-      {/* <div className="relative w-full h-screen/2 overflow-hidden">
-        <div className="aspect-video w-full h-full">
-          <video
-            className="absolute top-0 left-0 object-cover w-full h-full"
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/video/PinGrab_1733449187884.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div> */}
-      {/* <div className="relative w-full h-screen/2 overflow-hidden">
-        <div className="aspect-video w-full h-full">
-          <video
-            className="absolute top-0 left-0 object-cover w-full h-full"
-            autoPlay
-            loop
-            muted
-          >
-            <source src="/video/PinGrab_1733449187884.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30"></div>
+      {/* The running background video */}
+
+      {/* <div className="px-6">
+      <div className="relative w-full h-0" style={{ paddingTop: "56.25%" }}>
+        <video
+          className="absolute top-0 left-0 w-full h-full"
+          controls
+          loop
+          muted
+          src="/video/PinGrab_1733449187884.mp4"
+          type="video/mp4"
+        >
+          Your browser does not support the video tag.
+        </video>
         </div>
       </div> */}
     </div>
