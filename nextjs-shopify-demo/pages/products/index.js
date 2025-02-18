@@ -4,82 +4,78 @@ import Navbar from "@/components/Navbar";
 const staticProducts = [
   {
     id: 1,
-    name: "Earthen Bottle",
+    name: "Honey",
     href: "#",
     price: "$48",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-01.jpg",
+    imageSrc: "/images/agric/ajci-honey.webp",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
     id: 2,
-    name: "Nomad Tumbler",
+    name: "Garri",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg",
+    imageSrc: "/images/agric/garri.webp",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
-    name: "Focus Paper Refill",
+    name: "Tigernut",
     href: "#",
     price: "$89",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg",
+    imageSrc: "/images/agric/tigernut.webp",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
   {
     id: 4,
-    name: "Machined Mechanical Pencil",
+    name: "Catfish",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg",
+    imageSrc: "/images/agric/catfish.webp",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
   {
     id: 5,
-    name: "360 silver watch",
+    name: "Kuli Kuli",
     href: "#",
     price: "$300.0",
-    imageSrc: "/images/Products/71J6k7xyW9L._SX569_.jpg",
+    imageSrc: "/images/agric/kuli-kuli.webp",
+    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
+  },
+  {
+    id: 6,
+    name: "Boneless Fish",
+    href: "#",
+    price: "$500.9",
+    imageSrc: "/images/agric/bonelessFish.webp",
     imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
   },
   {
     id: 7,
-    name: "Shawl lapel suit",
+    name: "Ground Melon",
     href: "#",
-    price: "$500.9",
-    imageSrc: "/images/Products/images (67).jpeg",
+    price: "$10.99",
+    imageSrc: "/images/agric/ground-melon.webp",
     imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
   },
   {
     id: 8,
-    name: " Dark-brown shoe",
+    name: "Ground Shrimp",
     href: "#",
-    price: "$10.99",
-    imageSrc: "/images/Products/images (74).jpeg",
+    price: "$64.0",
+    imageSrc: "/images/agric/ground-shrimp.webp",
     imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
   },
   {
     id: 9,
-    name: "Ruby necklace",
-    href: "#",
-    price: "$64.0",
-    imageSrc: "/images/Products/Sa11dd9bfa4e24bc280d8881c10e4751a2.jpg_640x640Q90.jpg_.webp",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
-  },
-  {
-    id: 10,
-    name: " Fendi t-shirt",
+    name: "Fish Oil",
     href: "#",
     price: "$102.0",
-    imageSrc: "/images/Products/Fendi-red.png",
+    imageSrc: "/images/agric/fish-oil.webp",
     imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
   },
   // More products...
@@ -88,9 +84,6 @@ export default function Products({ products }) {
   return (
     <>
       <div className="relative isolate px-4 lg:px-8">
-        <span>
-          <Navbar />
-        </span>
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -128,14 +121,20 @@ export default function Products({ products }) {
     return (
       <Link key={product.id} href={`/products/${product.id}`}>
         <div className="group">
-          <Image
+          {/* <Image
             alt={product.imageAlt}
             src={product.imageSrc}
             className="aspect-square w-full border rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]"
             width={250}
             height={100}
             overlay="responsive"
-          />
+          /> */}<Image
+                                alt={product.imageAlt}
+                                src={product.imageSrc}
+                                className="aspect-square w-full border rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]"
+                                width={500}
+                                height={250}
+                              />
           <h3 className="mt-4 font-medium text-sm text-gray-700">
             {product.name}
           </h3>

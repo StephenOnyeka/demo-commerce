@@ -7,84 +7,84 @@ import Navbar from "@/components/Navbar";
 const staticProducts = [
   {
     id: 1,
-    name: "Earthen Bottle",
+    name: "Honey",
     href: "#",
     price: "$48",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-01.jpg",
+    imageSrc: "/images/agric/ajci-honey.webp",
     imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
-  
   {
     id: 2,
-    name: "Nomad Tumbler",
+    name: "Garri",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg",
+    imageSrc: "/images/agric/garri.webp",
     imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 3,
-    name: "Focus Paper Refill",
+    name: "Tigernut",
     href: "#",
     price: "$89",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg",
+    imageSrc: "/images/agric/tigernut.webp",
     imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
+      "PLorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 4,
-    name: "Mechanical Pencil",
+    name: "Catfish",
     href: "#",
     price: "$35",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg",
+    imageSrc: "/images/agric/catfish.webp",
     imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 5,
-    name: "360 silver watch",
+    name: "Kuli Kuli",
     href: "#",
     price: "$300.0",
-    imageSrc: "/images/Products/71J6k7xyW9L._SX569_.jpg",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
+    imageSrc: "/images/agric/kuli-kuli.webp",
+    imageAlt:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
+  },
+  {
+    id: 6,
+    name: "Boneless Fish",
+    href: "#",
+    price: "$500.9",
+    imageSrc: "/images/agric/bonelessFish.webp",
+    imageAlt:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 7,
-    name: "Shawl lapel suit",
+    name: "Ground Melon",
     href: "#",
-    price: "$500.9",
-    imageSrc: "/images/Products/images (67).jpeg",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
+    price: "$10.99",
+    imageSrc: "/images/agric/ground-melon.webp",
+    imageAlt:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 8,
-    name: " Dark-brown shoe",
+    name: "Ground Shrimp",
     href: "#",
-    price: "$10.99",
-    imageSrc: "/images/Products/images (74).jpeg",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
+    price: "$64.0",
+    imageSrc: "/images/agric/ground-shrimp.webp",
+    imageAlt:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   {
     id: 9,
-    name: "Ruby necklace",
-    href: "#",
-    price: "$64.0",
-    imageSrc: "/images/Products/Sa11dd9bfa4e24bc280d8881c10e4751a2.jpg_640x640Q90.jpg_.webp",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
-  },
-  {
-    id: 10,
-    name: " Fendi t-shirt",
+    name: "Fish Oil",
     href: "#",
     price: "$102.0",
-    imageSrc: "/images/Products/Fendi-red.png",
-    imageAlt:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia."
+    imageSrc: "/images/agric/fish-oil.webp",
+    imageAlt:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugiat accusantium ipsa. Harum, praesentium eaque at ipsum eveniet mollitia.",
   },
   // More products...
 ];

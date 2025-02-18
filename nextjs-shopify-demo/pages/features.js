@@ -37,9 +37,6 @@ function Features() {
   return (
     // <div ></div>
     <div className="bg-white pb-24 sm:pb-32">
-      <div className="pb-20 max-sm:pb-4">
-          <Navbar />
-        </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">        
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base/7 font-semibold text-green-600">
