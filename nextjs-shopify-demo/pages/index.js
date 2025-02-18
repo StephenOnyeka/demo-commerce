@@ -117,10 +117,7 @@ export default function Home({ products }) {
   console.log({ products });
   return (
     <div>
-      <div className="relative isolate max-sm:px-4 px-6  lg:px-8">
-        <span>
-          <Navbar />
-        </span>
+      <div className="max-sm:px-4 px-6  lg:px-8">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

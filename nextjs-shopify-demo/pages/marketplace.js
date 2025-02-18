@@ -4,10 +4,8 @@ import Navbar from "@/components/Navbar";
 function Marketplace() {
   return (
     <div>
-      <div className="bg-green-50 pb-24 sm:pb-32">
-        <div className="pb-20 max-sm:pb-4">
-          <Navbar />
-        </div>
+      <div className="bg-green-50 py-24 sm:py-32">
+        
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base/7 font-semibold text-green-600">

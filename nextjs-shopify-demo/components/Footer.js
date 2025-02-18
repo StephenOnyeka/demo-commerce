@@ -39,10 +39,10 @@ function Footer() {
               <hr className="border border-green-500 mt-3 mb-5" />
               <ul className="font-light leading-9 max-sm:leading-7 max-sm:text-sm">
                 <li className="hover:text-white transition-all duration-200 ease-in">
-                  <Link href="/products">Products</Link>
+                  <Link href="/marketplace">Products</Link>
                 </li>
                 <li className="hover:text-white transition-all duration-200 ease-in">
-                  <Link href="/features">Features</Link>
+                  <Link href="/marketplace">Features</Link>
                 </li>
                 <li className="hover:text-white transition-all duration-200 ease-in">
                   <Link href="/marketplace">Marketplace</Link>
